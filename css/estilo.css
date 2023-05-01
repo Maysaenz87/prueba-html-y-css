@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+main {
+    background-color: darksalmon;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+h2 {
+    font-family: 'Arvo', serif;
+}
+p {
+    font-family: 'Vina Sans', cursive;
+}
+
+.relacion-figurafondo {
+    background-color: blueviolet;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto;
+    border-top: solid aqua 5px;
+    border-right: dashed 7px greenyellow;
+    border-bottom: dotted 10px gray;
+    border-left: solid 12px yellow;
+    
+}
+
+.proximidad {
+    background-color: chartreuse;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.tendenciaalcierre {
+    background-image: url(../media/danae\ 4.png);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+.semejanza {
+    background-color: coral;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px blueviolet solid;
+}
+
+/* BOTONERA */
+
+nav {
+    padding: 1rem;
+}
+.menu {
+    list-style-type: none;
+    margin: 10px;
+    background-color: darkseagreen;
+}
+.menu { 
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background-color: cornflowerblue;
+    padding: 10px;
+
+}
+
+.menu {
+    text-decoration: none;
+    color: beige;
+}
+
+.menu li:hover {
+    color: chartreuse;
+    background-color: cornsilk;
+    border-radius: 40%;
+}
+
